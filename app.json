@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Kliftra-ui",
+    "slug": "Kliftra-ui",
+    "backgroundColor": "#fdf2dc",
+    "splash": {
+      "image": "./assets/kliftra-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fdf2dc"
+    }
+    }    
+  }
+
