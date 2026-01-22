@@ -2,12 +2,33 @@
   "expo": {
     "name": "Kliftra-ui",
     "slug": "Kliftra-ui",
+    "version": "1.0.0",
+    "orientation": "portrait",
     "backgroundColor": "#fdf2dc",
     "splash": {
       "image": "./assets/kliftra-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#fdf2dc"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/kliftra-logo.png",
+        "backgroundColor": "#fdf2dc"
+      }
+    },
+    "web": {
+      "favicon": "./assets/kliftra-logo.png"
+    },
+    "extra": {
+      "EXPO_PUBLIC_SUPABASE_URL": "https://lfptluczioywtbjrvlmj.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxmcHRsdWN6aW95d3RianJ2bG1qIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYyNTA3NDYsImV4cCI6MjA3MTgyNjc0Nn0.wp5uE4Sl8Yi_z8os_NIwohnHIk-TOpVx6C5alefGyVQ"
     }
-    }    
   }
-
+}
